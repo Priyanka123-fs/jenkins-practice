@@ -10,6 +10,8 @@ pipeline {
                 docker --version
                 pwd
                 ls -la
+                cd jenkins
+                ls -la
                 '''
             }
         }
