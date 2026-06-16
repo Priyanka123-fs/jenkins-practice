@@ -8,6 +8,8 @@ pipeline {
                 sh '''
                 docker ps
                 docker --version
+                pwd
+                ls -la
                 '''
             }
         }
