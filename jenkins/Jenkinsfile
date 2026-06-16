@@ -12,6 +12,8 @@ pipeline {
                 ls -la
                 cd jenkins
                 ls -la
+                docker build -t mysite .
+                docker run -p 80:80 mysite
                 '''
             }
         }
